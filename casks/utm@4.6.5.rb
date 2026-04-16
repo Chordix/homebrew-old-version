@@ -1,4 +1,4 @@
-cask "utm" do
+cask "utm@4.6.5" do
   version "4.6.5"
   sha256 "0b35607e01e2efa04f45f176d875b4a38613878071ee5536d2a9cc3b64a3c28d"
 
