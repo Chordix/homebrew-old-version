@@ -5,7 +5,8 @@ cask "mos@3.3.2" do
   url "https://github.com/Caldis/Mos/releases/download/#{version}/Mos.Versions.#{version}.dmg",
       verified: "github.com/Caldis/Mos/"
   livecheck do
-    url "https://github.com/Caldis/Mos/releases"
+    url :url
+    regex(/v?(\d+(?:[.-]\d+)+)/i)
     strategy :github_latest
   end
   name "Mos"
